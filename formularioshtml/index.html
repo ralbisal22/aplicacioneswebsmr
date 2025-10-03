@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Rellenar</legend>
+            <label>Nombre: </label>
+            <input type="text" placeholder="Pepe Perez" required><br><br>
+            <label>Edad:</label>
+            <input type="number"><br><br>
+            <label>Correo electrónico</label>
+            <input type="email" required><br><br>
+            <label>Color:</label>
+            <input type="color"><br><br>
+            <label>Teléfono</label>
+            <input type="tel"><br><br>
+            <label>Fecha: </label>
+            <input type="date"><br><br>
+            <label>Fichero:</label>
+            <input type="file">
+
+            <label>Elige que estudiar:</label><br>
+            <input type="radio" name="ciclo">DAM <br>
+            <input type="radio" name="ciclo">DAW <br>
+            <input type="radio" name="ciclo">ASIR <br>
+            <input type="radio" name="ciclo" checked>SMR <br>
+
+            <label>Elige el curso:</label><br>
+            <input type="radio" name="curso" checked>1º <br>
+            <input type="radio" name="curso">2º <br>
+
+            <label>Elige las asignatura para matricularte</label><br>
+            <input type="checkbox">Redes Locales<br>
+            <input type="checkbox">Montaje y mantenimiento de equipos<br>
+            <input type="checkbox">Sistemas Operativos monopuesto<br>
+            <input type="checkbox">IP I<br>
+
+
+            <select>
+                <option>Seleccionar elemento</option>
+                <option>Hombre</option>
+                <option>Mujer</option>
+            </select>
+            <br><br>
+            <textarea>
+                Texto
+            </textarea><br><br>
+
+            <!--3 TIPOS DE BOTONES: 
+            1. Tipo Submit -> Enviar formulario.
+            2. Tipo Reset -> Me borra todo los campos del formulario
+            3. Tipo button -> Funciones de JS, Editar sus estilos con CSS.
+            -->
+
+            <button type="submit">Enviar formulario</button>
+            <button type="reset">Borrar datos</button>
+            <button type="button">Tipo button</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
