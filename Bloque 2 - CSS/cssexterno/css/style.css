@@ -1,0 +1,29 @@
+/* 
+
+Sintaxis CSS:
+
+selector {
+    propiedad:valor;
+}
+
+
+*/
+
+body{
+    background-color: #CCFFCC; /*Cambiar el color de fondo de la web*/
+}
+
+
+h1{
+    color:red; /*color de letra*/
+    text-align: center; /*coloca en el centro el texto*/
+}
+
+p{
+    color:green;
+    font-size: 50px; /*tamaño de cuente*/
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/ /*cambiar tipografía*/
+    font-weight: bold; /*Texto en negrita*/
+    font-style: italic; /*Texto en cursiva*/
+}
+
