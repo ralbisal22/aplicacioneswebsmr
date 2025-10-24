@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.caja1{
+    border: solid red 10px;
+    height: 30vh; /*30% de la altura de la pantalla*/
+    width: 50%;
+    float: left;
+}
+
+.caja2{
+    border: solid blue 10px;
+    height: 30vh; /*30% de la altura de la pantalla*/
+    width: 50%;
+    float: left;
+}
