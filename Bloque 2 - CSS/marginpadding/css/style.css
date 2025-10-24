@@ -1,0 +1,60 @@
+/*MARGIN -> MARGEN EXTERIOR
+PADDING -> MARGEN INTERIOR
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*.caja1{
+    border: 1px solid red;
+    margin-top: 2%;
+    margin-left: 23%;
+    width: 50%;
+    padding: 2% 5% 8% 9%;
+}*/
+
+/*body{
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+@font-face{
+    font-family: 'tip_principal';
+    src: url("../tip/tipprincial.ttf");
+}
+
+body{
+    font-family: 'tip_principal';
+}
+
+.caja1{
+    background-color: red;
+    width: 44%;
+    float: right;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    transition: 1s;
+}/*Width: 50%, margenes extra: 6%*/
+
+.caja1:hover{
+    background-color: blue;
+    color:white
+}
+
+.caja2{
+    background-color: blue;
+    width: 42%;
+    float: right;
+    padding: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    transition: 1s;
+}/*Width: 50%, margenes extra: 6%*/
+
+.caja2:hover{
+    background-color: red;
+    color:white;
+}
