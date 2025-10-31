@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.caja1{
+
+    width: 60%;
+    background-color: red;
+    height: 20vh;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 7%;
+    margin-top: 10%;
+    transition: 3s;
+}
+
+.caja1:hover{
+    background-color: blue;
+    color:white;
+}
+
+.img2 img{
+    width: 100%;
+}
+
+.img2{
+    width: 20%;
+    border: 3px solid red;
+}

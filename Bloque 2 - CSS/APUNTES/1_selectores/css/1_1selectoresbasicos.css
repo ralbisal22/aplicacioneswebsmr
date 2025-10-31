@@ -1,0 +1,26 @@
+/*Selector por etiqueta*/
+h1{
+    color:green;
+}
+
+/*Selector por ID*/
+#miparrafo{
+    color:blue;
+}
+
+/*Selector por clase*/
+.texto-naranja{
+    color:orange;
+}
+
+.texto-blanco{
+    color: #FFF;
+}
+
+/*Clases combinadas (agrupadas
+Se aplica SOLO a los elementos que tengan ambas clases
+*/
+
+.fondo-color.texto-blanco{
+    font-size: 30px;
+}
