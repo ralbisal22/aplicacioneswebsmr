@@ -1,0 +1,12 @@
+/*Selectores hermanos*/
+
+/*Hermano general (~)*/
+.articulo h1 ~ span{
+    color: blue;
+}
+
+/*Hermanos adyacentes (+)*/
+
+.articulo h1 + span {
+    color: red;
+}

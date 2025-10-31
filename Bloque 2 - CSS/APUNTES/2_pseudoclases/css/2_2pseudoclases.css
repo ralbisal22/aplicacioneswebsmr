@@ -1,0 +1,27 @@
+p:first-child {
+    color: blue;
+}
+
+p:last-child {
+    color: violet;
+}
+
+p:nth-child(3){
+    color: red;
+}
+
+p:nth-last-child(3){
+    color: red;
+}
+
+p:nth-child(even){
+    color: orange;
+}
+
+p:nth-child(odd){
+    color: red;
+}
+
+p:nth-child(4n){
+    color:black;
+}

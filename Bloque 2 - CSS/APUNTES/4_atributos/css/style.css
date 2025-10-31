@@ -1,0 +1,19 @@
+input[type="number"]{
+    background-color: red;
+}
+
+a[href="www.google.com"]{
+    color: orange;
+}
+
+a[href*=google]{
+    color:violet;
+}
+
+a[href^="https"]{
+    color: red;
+}
+
+a[href$=".pdf"]{
+    color: yellow;
+}

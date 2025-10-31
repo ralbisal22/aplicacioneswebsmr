@@ -1,0 +1,22 @@
+span::before{
+    content: '-';
+    font-size: 30px;
+}
+
+span::after {
+    content: 'Hola, texto generado';
+    color:blue;
+}
+
+p::first-letter {
+    font-size: 45px;
+}
+
+ul li::marker{
+    color: violet;
+}
+
+input::placeholder{
+    color: red;
+    font-size: 18px;
+}

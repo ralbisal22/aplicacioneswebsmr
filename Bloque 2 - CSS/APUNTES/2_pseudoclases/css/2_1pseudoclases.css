@@ -1,0 +1,20 @@
+a:link{ /*Enlaces no visitados*/
+    color:orange;
+}
+
+a:visited{ /*Enlaces visitados*/
+    color:violet;
+}
+
+input:focus{ /*Cuando hago click o escribo en un input*/
+    background: red;
+}
+
+a:hover{ /*Cuando me posiciono encima*/
+    color: red;
+    font-size: 20px;
+}
+
+p:not(.miparrafo){ /*Aplico el color de letra azul a todos los parrafos, menos el que tiene la clase miparrafo*/
+    color:blue;
+}
