@@ -1,0 +1,21 @@
+div {
+    width: 200px;
+    height: 200px;
+
+    /*Palabras clave*/
+    background-color: crimson;
+
+    /*Hexadecimal*/
+    background-color: #129700;
+
+    /*RGB*/
+    background-color: rgb(17, 0, 255);
+
+    /*HSL*/
+
+    background-color: hsl(125, 98%, 40%);
+
+    background: linear-gradient(90deg, blue, orange, crimson, green);
+
+    background: radial-gradient(green, orange, blue, red);
+}
