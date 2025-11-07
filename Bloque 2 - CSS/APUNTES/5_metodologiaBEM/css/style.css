@@ -1,0 +1,37 @@
+/*METODOLOGÍA BEM*/
+/*BEM -> BLOCK, ELEMENT, MODIFIER*/
+/*
+Block -> Componente independiente que tiene sentido por si mismo
+Element -> Parte interna o hijo del bloque (no puede existir sin el bloque)
+Modifier -> Variación del bloque o elemento (color, tamaño, estado...)
+
+Convención de nombres:
+-----------------------
+
+- Bloque: .nombre
+- Elemento: .nombre__subparte
+- Modidficador: .nombre--variacion
+*/
+
+.box {
+    width: 200px;
+    background: lightskyblue;
+    padding: 40px;
+    margin: 20px;
+}
+
+.box__btn {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+}
+
+.box--bgred{
+    background: red;
+}
+
+.btn--bgred{
+    background: firebrick;
+}

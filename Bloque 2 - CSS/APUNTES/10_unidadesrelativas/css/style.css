@@ -1,0 +1,45 @@
+:root {
+    font-size: 50px;
+}
+
+body {
+    font-size: 20px;
+}
+
+h1 {
+    /*REM (root em)
+    Relativa al tamaño fuente del <html> (o :root), no del padre
+    */
+    /*3rem = 3 * 50px = 150px */
+    font-size: 3rem;
+
+    /*EM Relativa al tamaño fuente del elemento padre (body)
+    2 em = 2 * 20 = 40px
+    */
+
+    font-size: 2em;
+
+    /*EX
+    Relativa a la aluta de la letra "x" del elemento.
+    Sirve para ajustar tamaños según la tipografía.
+    1ex = aprox 0.5em
+    */
+    font-size: 1ex;
+
+    /*ch
+    Relativa a la anchura del carácter "0" del tipo de letra actual.
+    Ideal para definir anchos de texto con alineación monoespaciada.
+    2ch = el ancho de dos caracteres "0"
+    */
+
+    font-size: 2ch;
+    
+}
+
+div {
+    background: blue;
+
+    width: 50%;
+
+    height: 200px;
+}

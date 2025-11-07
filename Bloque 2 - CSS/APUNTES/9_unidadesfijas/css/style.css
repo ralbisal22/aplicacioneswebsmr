@@ -1,0 +1,38 @@
+div {
+    background: blue;
+
+    /*q = quarter-millimeter = 1/40 cm = 0.25mm*/
+
+    width: 20q;
+    height: 20q;
+
+    /*px*/
+
+    width: 50px;
+    height: 50px;
+
+    /*pt (punto tipográfico) 1 punto = 1/72 de pulgada*/
+    width: 50pt;
+    height: 50pt;
+
+    /*mm - 1mm = 1/10 de centímetro*/
+    width: 50mm;
+    height: 50mm;
+
+    /*pc = 12 puntos = aprox 1/6 pulgadas*/
+
+    width: 50pc;
+    height: 50pc;
+
+    /*cm = 10 mm*/
+    width: 50cm;
+    height: 50cm;
+
+    /*in = 2.54cm = 96px en CSS*/
+
+    width: 50in;
+    height: 50in;
+
+
+
+}

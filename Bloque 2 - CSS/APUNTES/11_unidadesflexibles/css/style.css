@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background: lightskyblue;
+    /*vw = 1% del ancho del viewport
+    Si la pantalla mide 1200px de ancho -> 50vw = 600px
+    */
+    width: 50vw;
+
+    /*vh = 1% de la altura del viewport*/
+    /*Si la pantalla mide 800px -> 50vh -> 400px*/
+
+    height: 50vh;
+    
+
+}
+
+h1 {
+
+    /*
+    vmin: 1% del valor más pequeño entre el ancho y el alto del viewport
+    Si el ancho 1200px y alto 800px
+    1vmin = 8px - 10vmin = 80px
+    vmax: 1% del valor más grande entre el ancho y el alto del viewport
+    1vmax = 12px - 10vmax = 120px
+    */
+
+    font-size: 10vmin;
+
+}

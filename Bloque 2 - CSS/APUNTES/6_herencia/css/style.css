@@ -1,0 +1,22 @@
+/*
+Propiedades que se heredan: color, font-family, line-height
+Propiedades que no se heredan: border, margin, padding, background
+al menos que se indique explicitamente con inherit
+*/
+
+body{
+    color: red;
+    border: 1px solid blue;
+}
+
+/*Valores especiales en CSS*/
+
+/*
+    - inherit -> Hace que el elemento herede explicítamente el valor de esa propiedad de su elemento padre
+    - initial -> Restaura el valor inicial por defecto de la propiedad, es decir, el valor que tendría si no se hubiera modificado.
+
+*/
+
+div {
+    border: initial;
+}

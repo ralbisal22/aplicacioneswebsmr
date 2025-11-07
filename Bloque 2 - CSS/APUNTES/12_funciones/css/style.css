@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*.menu {
+    background: #000;
+    width: 100%;
+    height: 100px;
+}*//*
+
+div.container {
+    background: blue;
+    width: 100%;
+    height: 100vh;
+*/
+    /*Función calc*/
+    /*height: calc(100vh - 100px);*/
+
+    /*Función min*/
+    /*width: min(200px, 25%);*/
+
+    /*Función max*/
+    /*width: max(300px, 25%);*/
+
+    /*Función clamp*/
+
+    /*width: clamp(100px, 25%, 300px);
+
+}*/
+
+h1::after {
+    content: attr(data-name);
+}
