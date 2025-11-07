@@ -1,0 +1,25 @@
+div {
+    width: 500px;
+    height: 500px;
+
+    margin: auto;
+
+    border: 1px solid #000;
+    background-color: #123456;
+    background-color: turquoise;
+
+    background: linear-gradient(90deg, blue, orange);
+    background: radial-gradient(orange, red);
+
+    background-image: url("../../img/wallpaper.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center center;
+
+    background-attachment: fixed;
+
+    background: url("../../img/wallpaper.jpg") no-repeat fixed center;
+}

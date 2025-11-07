@@ -1,0 +1,22 @@
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../img/background3.jpg");
+    background-size: cover;
+}
+
+
+
+
+h1 {
+    font-size: 80px;
+
+    line-height: 100vh;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    mix-blend-mode: darken;
+}

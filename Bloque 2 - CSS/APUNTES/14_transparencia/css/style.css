@@ -1,0 +1,15 @@
+div {
+    width: 500px;
+    height: 500px;
+    background-color: transparent;
+
+    background-color: #00000073;
+
+    background-color: rgba(0, 0, 0, 0.555);
+
+    background-color: hsla(125, 80%, 50%, 40%);
+
+    background: red;
+
+    opacity: 0.2;
+}
