@@ -26,5 +26,6 @@ function dividir(){
    document.getElementById("resultado").innerText = divi; 
 }
 
+/* % */
 
 
